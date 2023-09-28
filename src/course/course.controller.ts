@@ -30,7 +30,7 @@ import { JWTAuthGuard } from "src/common";
 @ApiTags("Authentication")
 @ApiResponse({ status: 400, type: ErrorResponse })
 @ApiResponse({ status: 500, type: ErrorResponse })
-export class AuthController {
+export class CourseController {
   constructor(private readonly courseService: CourseService) {
   }
 
